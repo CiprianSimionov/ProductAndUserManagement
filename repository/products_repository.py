@@ -23,7 +23,7 @@ class ProductsRepository(RepositoryInterface):
                 produs = product
                 break
         if produs:
-            print(f"Id ul este: {produs.product_id} \n"
+            print(f"The id is: {produs.product_id} \n"
                 f"Product name is: {produs.name} \n"
                 f"Product price is: {produs.price} \n"
                 f"Product quantity is: {produs.quantity}")

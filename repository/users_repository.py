@@ -20,7 +20,7 @@ class UsersRepository(RepositoryInterface):
                 utilizator = user
                 break
         if utilizator:
-            print(f"Id is: {utilizator.user_id} \n"
+            print(f"The id is: {utilizator.user_id} \n"
                   f"Username is: {utilizator.name} \n"
                   f"User email is: {utilizator.email} \n"
                   #f"Parola utilizatorului: {utilizator.password}"
